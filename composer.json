@@ -1,0 +1,24 @@
+{
+    "name": "trorg/tokenlink",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "TroRg"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "~6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "trorg\\tokenlink\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "trorg\\tokenlink\\tests\\": "tests"
+        }
+    }
+}
